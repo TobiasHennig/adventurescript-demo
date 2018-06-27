@@ -1,0 +1,72 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #eeeeee;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+img {
+  width: 100%;
+  margin-bottom: 2rem;
+  z-index: 1;
+}
+
+#main {
+  width: 840px;
+  display: flex;
+  flex-direction: column;
+  margin: 2rem auto;
+}
+
+#container {
+  height: 644px;
+  width: 100%;
+  display: flex;
+  margin-top: -8em;
+}
+
+#game {
+  border: 2px solid #000000;
+}
+
+#code {
+  border: none;
+  box-sizing: border-box;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 1rem;
+  font-weight: 700;
+  height: 37rem;
+  line-height: 2rem;
+  overflow: auto;
+  padding: 0.5rem 1rem;
+  resize: none;
+  width: 100%;
+  border: 2px solid #dddddd;
+  margin-bottom: 0.25rem;
+}
+
+#code:focus {
+  outline: 2px solid #DB4545;
+}
+
+#playBtn {
+  border: none;
+  height: 3rem;
+  width: 100%;
+  background-color: #DB4545;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 1.5rem;
+  font-family: inherit;
+  border: 2px solid #A33333;
+}
+
+.screen {
+  box-sizing: border-box;
+  font-size: 0;
+  flex-basis: 50%;
+}
+
+.game-screen {
+  margin-right: 0.5rem;
+}
